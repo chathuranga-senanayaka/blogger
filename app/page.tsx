@@ -6,6 +6,7 @@ export const revalidate = false;
 export default function Home() {
   return (
     <div className="hero-section">
+      Hi
       <div></div>
       <div>
         <div></div>
