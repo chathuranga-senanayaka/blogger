@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "font-medium text-brand-white border border-brand-white/0 rounded-[12px] flex items-center gap-2",
+  "font-medium text-brand-white border border-brand-white/0 rounded-[12px] flex items-center ",
   {
     variants: {
       variant: {
@@ -13,10 +13,12 @@ const buttonVariants = cva(
           "bg-gradient-to-bl from-brand-blue to-brand-yellow text-brand-white ",
 
         outline: "bg-brand-text/5 text-brand-text",
+        icon: "gap-2 text-brand-text",
       },
       size: {
         default: "px-6 py-[10px] ",
         small: "px-5 py-2",
+        icon: "px-0 py-0",
       },
     },
     defaultVariants: {

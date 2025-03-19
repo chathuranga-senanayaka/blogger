@@ -9,7 +9,7 @@ export default function Home() {
     <div className="hero-section btn">
       <Button>Button</Button>
       <div className="h-10 w-10"></div>
-      <Button variant={"outline"} size={"small"}>
+      <Button variant={"icon"} size={"icon"}>
         Button
       </Button>
     </div>
