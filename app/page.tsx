@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
 
 // Nextjs ISR caching strategy
@@ -6,15 +7,11 @@ export const revalidate = false;
 export default function Home() {
   return (
     <div className="hero-section btn">
-      Hi
-      <div></div>
-      <div>
-        <div></div>
-        <div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
+      <Button>Button</Button>
+      <div className="h-10 w-10"></div>
+      <Button variant={"outline"} size={"small"}>
+        Button
+      </Button>
     </div>
   );
 }
