@@ -5,7 +5,7 @@ export const revalidate = false;
 
 export default function Home() {
   return (
-    <div className="hero-section">
+    <div className="hero-section btn">
       Hi
       <div></div>
       <div>

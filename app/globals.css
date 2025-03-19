@@ -43,6 +43,7 @@
   --radius-xl: calc(var(--radius) + 4px);
   --color-brancd-blue: #2f67bc;
   --color-brand-yellow: #baaf2d;
+  --font-brand-rubik: var(--font-rubik);
 }
 
 :root {
@@ -120,5 +121,11 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply font-brand-rubik;
   }
 }

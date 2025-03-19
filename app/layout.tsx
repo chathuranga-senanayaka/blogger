@@ -3,13 +3,13 @@ import { Gloock, Rubik } from "next/font/google";
 import "./globals.css";
 
 const gloock = Gloock({
-  variable: "--font-geist-sans",
+  variable: "--font-gloock",
   subsets: ["latin"],
   weight: "400",
 });
 
 const rubik = Rubik({
-  variable: "--font-geist-mono",
+  variable: "--font-rubik",
   subsets: ["latin"],
 });
 
