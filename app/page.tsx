@@ -1,4 +1,6 @@
+import Headersection from "@/components/Headersection";
 import { Button } from "@/components/ui/button";
+import Postcard from "@/components/ui/postcard";
 import React from "react";
 
 // Nextjs ISR caching strategy
@@ -6,12 +8,9 @@ export const revalidate = false;
 
 export default function Home() {
   return (
-    <div className="hero-section btn">
-      <Button>Button</Button>
-      <div className="h-10 w-10"></div>
-      <Button variant={"icon"} size={"icon"}>
-        Button
-      </Button>
+    <div className="">
+      <Headersection />
+      <Postcard />
     </div>
   );
 }

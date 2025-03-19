@@ -46,7 +46,7 @@
   --color-brand-text: #090902;
 
   --font-brand-rubik: var(--font-rubik);
-  --font-brand-groock: var(--font-groock);
+  --font-brand-gloock: var(--font-gloock);
 }
 
 :root {
@@ -123,12 +123,30 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-brand-text;
   }
 }
 
 @layer components {
   .btn {
-    @apply font-brand-rubik text-brand-text;
+    @apply font-brand-rubik;
+  }
+  .heading-1 {
+    @apply font-brand-gloock  text-[40px] lg:text-[56px] leading-[1.2] tracking-[-1%];
+  }
+  .heading-2 {
+    @apply font-brand-gloock md:text-5xl text-3xl leading-[1.2] tracking-[-1%];
+  }
+  .heading-4 {
+    @apply font-brand-gloock md:text-[32px] text-2xl leading-[1.3] tracking-[-1%];
+  }
+  .body-text {
+    @apply font-brand-rubik text-base lg:text-lg leading-[1.5];
+  }
+  .body-text-normal {
+    @apply font-brand-rubik md:text-base;
+  }
+  .tagline {
+    @apply font-brand-rubik text-base font-semibold leading-[1.5];
   }
 }
