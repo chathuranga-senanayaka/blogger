@@ -1,6 +1,7 @@
 import React from "react";
 import post_img from "@/public/header_img.png";
 import Image from "next/image";
+import { postData } from "@/db/post";
 
 const Postcard = () => {
   return (
@@ -10,14 +11,12 @@ const Postcard = () => {
           src={post_img}
           alt="header-img"
           layout="fill"
-          objectFit="cover"
+          objectFit="cover"4
           priority
         />
       </div>
       <div className="content flex flex-col gap-6">
-        <div className="card-title heading-4">
-          Travel: Explore the World with Us
-        </div>
+        <div className="card-title heading-4">{postData.posts.title}</div>
         <div className="description body-text-normal">
           Join us on our journeys to breathtaking destinations.
         </div>
