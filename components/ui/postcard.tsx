@@ -11,7 +11,7 @@ const Postcard = () => {
           src={post_img}
           alt="header-img"
           layout="fill"
-          objectFit="cover"4
+          objectFit="cover"
           priority
         />
       </div>
