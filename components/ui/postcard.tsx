@@ -1,13 +1,13 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-interface postCardProps {
+interface PostcardProps {
   title: string;
   description: string;
-  image: string;
+  image: StaticImageData; // Ensure correct type for imported images
 }
 
-const Postcard: React.FC<postCardProps> = ({ title, description, image }) => {
+const Postcard: React.FC<PostcardProps> = ({ title, description, image }) => {
   return (
     <div className="wrapper md:max-w-[404px] md:min-h-[404px] flex flex-col gap-8">
       <div className="img md:min-w-full md:min-h-[240px] relative">
