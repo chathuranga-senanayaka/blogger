@@ -1,7 +1,12 @@
 import React from "react";
+import Postcard from "./ui/postcard";
 
 const Categorysection = () => {
-  return <div>Categorysection</div>;
+  return (
+    <div>
+      <Postcard />
+    </div>
+  );
 };
 
 export default Categorysection;
