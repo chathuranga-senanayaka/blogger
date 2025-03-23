@@ -1,7 +1,7 @@
-import adventureImg from "@/public/1 (1).jpg";
-import luxuryImg from "@/public/1 (2).jpg";
-import mountainImg from "@/public/1 (3).jpg";
-import beachImg from "@/public/1 (4).jpg";
+import adventureImg from "@/public/img.jpg";
+import luxuryImg from "@/public/img2.jpg
+import mountainImg from "@/public/img3.jpg";
+import beachImg from "@/public/img4.jpg";
 
 export const postData = {
   categories: [
